@@ -1,0 +1,51 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    background-color:greenyellow;
+    text-align: center;
+    padding: 10vh;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    border: 3px solid black;
+}
+
+.listclass {
+    list-style: none;
+    background-color: blue;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 5vh;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration-line: none;
+    color: black;
+    color: white;
+}
+
+a:hover {
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 3vh;
+}
+
+p {
+    text-indent: 33px;
+}
+
+img {
+    width:25%;
+    height: 25%;
+    margin-left: 30em;
+}
